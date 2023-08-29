@@ -38,11 +38,15 @@ var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// this code will log the result of the comparison: is friends greater than siblings?
+// this should log: true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// this code will log the result of the comparison: is attendees not equal to meals?
+// this should log: true
 
 
 // #-------------------
