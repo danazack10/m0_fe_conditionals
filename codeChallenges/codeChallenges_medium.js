@@ -10,3 +10,10 @@ var age = 24;
 // - If the user either has a good record or is over 25 years old, they should pay full price
 // - If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
 
+if (goodDrivingRecord === true && age > 25){
+    console.log("You will get a discount on the car rental.");
+} else if (goodDrivingRecord === true || age > 25){
+    console.log("You will pay full price.");
+} else {
+    console.log("You will need to have someone else sign for the rental.");
+}
