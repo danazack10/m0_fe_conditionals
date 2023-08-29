@@ -10,8 +10,13 @@
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= 2){
+    console.log("I have enough money for a gumball");
+} else {
+    console.log("I don't have enough money for a gumball");
+}
+
+
 
 
 // CHALLENGE 2
